@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n,m =map(int,input().split())
+# m=int(input())
+array=list(map(int,input().split()))
+s=set(map(int,input().split()))
+s1=set(map(int,input().split()))
+print(sum((i in s)(#checking the number to be present in set s and adding one to our sum)-(i in s1)(#checking the number to be present in set s1 and subtracting it from our sum) for i in array(checking number in array for its present))
